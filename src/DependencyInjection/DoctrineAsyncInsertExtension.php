@@ -6,7 +6,7 @@ namespace Tourze\DoctrineAsyncInsertBundle\DependencyInjection;
 
 use Tourze\SymfonyDependencyServiceLoader\AutoExtension;
 
-class DoctrineAsyncInsertExtension extends AutoExtension
+final class DoctrineAsyncInsertExtension extends AutoExtension
 {
     protected function getConfigDir(): string
     {
